@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/teal_200"
+    app:cardCornerRadius="15dp"
+    android:elevation="5dp"
+    android:layout_marginBottom="10dp"
+    android:layout_width="150dp"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:padding="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/filmImg"
+            android:layout_alignParentStart="true"
+            android:layout_width="130dp"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/judul"
+            android:layout_below="@id/filmImg"
+            android:text="Judul Film"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/Tanggal"
+            android:text="12 Maret 2023"
+            android:layout_below="@id/judul"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
